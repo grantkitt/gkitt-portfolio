@@ -1,0 +1,26 @@
+{
+    "components": [
+        {
+            "primarycolor": "#BF5700",
+            "secondarycolor": "#FFFFFF",
+            "title": "University of Texas at Austin",
+            "role": "Aerospace Engineering",
+            "startdate": "August 2021",
+            "enddate": "May 2025",
+            "description": "I love the university of texas!",
+            "image": "/texas.png",
+            "imagewidth": 200
+        },
+        {
+            "primarycolor": "#055E4F",
+            "secondarycolor": "#FFFFFF",
+            "title": "Gazelle Ecosolutions",
+            "role": "Vice President of Engineering",
+            "startdate": "September 2022",
+            "enddate": "Present",
+            "description": "I love Gazelle!",
+            "image": "/gazelle.png",
+            "imagewidth": 150
+        }
+    ]
+}
