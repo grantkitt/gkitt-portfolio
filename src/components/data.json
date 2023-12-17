@@ -5,22 +5,49 @@
             "secondarycolor": "#FFFFFF",
             "title": "University of Texas at Austin",
             "role": "Aerospace Engineering",
+            "skills": ["Texas Momentum", "Scholars of Finance", "Kappa Sigma Tau", "Engineering Computation", "Linear Systems", "Feedback and Controll Systems", "Spacecraft Dynamics",
+                        "Elements of Software Design", "Electromechanical Systems", "Lowspeed Aerodynamics", "Propulsion", "Compressible Fluids"],
             "startdate": "August 2021",
             "enddate": "May 2025",
-            "description": "I love the university of texas!",
             "image": "/texas.png",
-            "imagewidth": 200
+            "imagewidth": 200,
+            "description": "Currently studying Aerospace Engineering at the University of Texas at Austin. Also getting a certificate in Elements of Computing. Member of Texas' premiere startup club, Texas Momentum, as well as the Longhorn Startup Lab. Involved in the Scholars of Finacne club and Kappa Sigma Tau fraternity."
         },
         {
             "primarycolor": "#055E4F",
             "secondarycolor": "#FFFFFF",
             "title": "Gazelle Ecosolutions",
             "role": "Vice President of Engineering",
+            "skills": ["Python", "Django", "Celery", "Docker", "NodeJS", "ExpressJS", "PostgreSQL", "PostGIS", "ReactJS", "Flutter", "Swift", "Java", "AWS", "EC2", "RDS", "Kubernetes", "EKS", "CI/CD", "GitHub Actions", "Agile Methodology", "Jira"],
             "startdate": "September 2022",
             "enddate": "Present",
-            "description": "I love Gazelle!",
             "image": "/gazelle.png",
-            "imagewidth": 150
+            "imagewidth": 150,
+            "description": "Vice President of Engineering at Gazelle Ecosolutions. Built out Gazelle's premiere mobile application, and leading development of the Gazelle Hub. Leading a team of 9 Software Engineers and 7 designers. Gazelle catalyzes grassland conservation by making project development incredibly simple and quick. Backed by Shell."
+        },
+        {
+            "primarycolor": "#1A1F71",
+            "secondarycolor": "#F7B600",
+            "title": "VISA",
+            "role": "Software Engineer Intern",
+            "skills": ["Java", "SpringBoot", "AngularJS", "JavaScript", "TypeScript", "MySQL", "Jenkins", "Agile Methodology", "Jira"],
+            "startdate": "May 2023",
+            "enddate": "July 2023",
+            "image": "/visa.png",
+            "imagewidth": 200,
+            "description": "Worked as a Software Engineer intern for VISA in the summber of 2023. Worked on the FXTI team to build an internal tool to track and manage foreign trades."
+        },
+        {
+            "primarycolor": "#000000",
+            "secondarycolor": "#FFFFFF",
+            "title": "PediSTAT",
+            "role": "Software Engineer",
+            "skills": ["Flutter", "Java", "Swift", "JavaScript", "ReactJS", "Python Django", "PostgreSQL", "AWS", "EC2"],
+            "startdate": "January 2023",
+            "enddate": "September 2023",
+            "image": "/pedistat.png",
+            "imagewidth": 150,
+            "description": "Was the sole software engineer in rebuilding the entire PediSTAT mobile application. Implemented a shell application allowing medication detials to be loaded in building infrastructure for multiple hospitals and medical institutions to build their own custom applications. Created client dashboard for manually adding and editing medication and algorithms."
         }
     ]
 }
