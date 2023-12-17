@@ -62,9 +62,9 @@ export default function Component(props: componentProps) {
         
             <div className='w-[90%] lg:w-[80%] flex flex-col items-center justify-center relative'>
                     <div onClick={handleClick} onMouseEnter={handleHover} onMouseLeave={handleHover} className="shadow-lg hover:shadow-xl flex flex-col items-start justify-center px-[5%] py-[5%] cursor-pointer rounded-lg relative w-full" style={{backgroundColor: props.primarycolor}}>
-                    <h1 className="text-lg font-bold" style={{color: props.secondarycolor}}>{props.title}</h1>
+                    <h1 className="text-lg lg:text-3xl font-bold" style={{color: props.secondarycolor}}>{props.title}</h1>
 
-                    <h2 className="text-sm font-semibold italic mr-5 leading-5" style={{color: props.secondarycolor}}>{props.role}</h2>
+                    <h2 className="text-sm lg:text-lg font-semibold italic mr-5 leading-5" style={{color: props.secondarycolor}}>{props.role}</h2>
                     <h2 className="text-xs font-semibold" style={{color: props.secondarycolor}}>{props.startdate} - {props.enddate}</h2>
             
                     <div className='absolute top-0 right-0 rounded-tr-lg rounded-bl-full h-[30px] w-[30px] lg:h-[60px] lg:w-[60px]' style={{backgroundColor: props.secondarycolor}}></div> 
