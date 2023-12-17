@@ -11,7 +11,7 @@
             "enddate": "May 2025",
             "image": "/texas.png",
             "imagewidth": 200,
-            "description": "Currently studying Aerospace Engineering at the University of Texas at Austin. Also getting a certificate in Elements of Computing. Member of Texas' premiere startup club, Texas Momentum, as well as the Longhorn Startup Lab. Involved in the Scholars of Finacne club and Kappa Sigma Tau fraternity."
+            "description": "Currently studying Aerospace Engineering at the University of Texas at Austin. Also getting a certificate in Elements of Computing. Member of Texas' premiere startup club, Texas Momentum, as well as the Longhorn Startup Lab. Involved in the Scholars of Finance club and Kappa Sigma Tau fraternity."
         },
         {
             "primarycolor": "#055E4F",
@@ -35,7 +35,7 @@
             "enddate": "July 2023",
             "image": "/visa.png",
             "imagewidth": 200,
-            "description": "Worked as a Software Engineer intern for VISA in the summber of 2023. Worked on the FXTI team to build an internal tool to track and manage foreign trades."
+            "description": "Worked as a Software Engineer intern for VISA in the summer of 2023. Worked on the FXTI team to build an internal tool to track and manage foreign trades."
         },
         {
             "primarycolor": "#000000",
@@ -47,7 +47,7 @@
             "enddate": "September 2023",
             "image": "/pedistat.png",
             "imagewidth": 150,
-            "description": "Was the sole software engineer in rebuilding the entire PediSTAT mobile application. Implemented a shell application allowing medication detials to be loaded in building infrastructure for multiple hospitals and medical institutions to build their own custom applications. Created client dashboard for manually adding and editing medication and algorithms."
+            "description": "Was the sole software engineer in rebuilding the entire PediSTAT mobile application. Implemented a shell application allowing medication details to be loaded in building infrastructure for multiple hospitals and medical institutions to build their own custom applications. Created client dashboard for manually adding and editing medication and algorithms."
         }
     ]
 }
