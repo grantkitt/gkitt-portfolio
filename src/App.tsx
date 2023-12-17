@@ -1,4 +1,3 @@
-import React from 'react'
 import Component from './components/component';
 import components from './components/data.json';
 
