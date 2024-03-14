@@ -13,17 +13,22 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col w-full items-center justify-start lg:px-[5%] pt-[2%] gap-y-10 lg:gap-y-14 pb-[10%]'>
+    <div className='flex flex-col w-full items-center justify-start px-[10px] pt-[10px] pb-[10%] bg-gray-700'>
       <div className="flex flex-row items-start justify-center w-full mb-[0.5%]">
-        <div className="flex flex-row items-end shadow-xl bg-gray-200 justify-between w-full lg:w-[55%] rounded-lg p-[4%]">
-          <h1 className='text-black font-bold text-2xl lg:text-[6vh] text-left leading-7 lg:leading-[50px]'>Grant Kitlowski</h1>
-          <button onClick={handleCopyEmail} className='flex flex-row items-center justify-start gap-x-2 border-b-[2px] hover:border-gray-400 border-black'>
-            <h2 className='font-semibold text-xs lg:text-lg text-gray-800'>email me</h2>
-            {copyIcon}
-          </button>
+        <div className="flex flex-col items-center justify-start w-full sm:w-[500px] lg:w-[600px] rounded-lg mt-[20px] px-[30px]">
+          <div className='flex flex-row w-full items-center justify-between'>
+            <h1 className='text-white font-bold text-xl lg:text-3xl text-left leading-7 lg:leading-[50px]'>Grant Kitlowski</h1>
+            <button onClick={handleCopyEmail} className='text-white flex flex-row items-center justify-start gap-x-2 hover:text-gray-400'>
+              <h2 className='font-semibold text-xs lg:text-lg'>email me</h2>
+              {copyIcon}
+            </button>
+          </div>
+          <div className='w-full h-[2px] bg-white mt-[2px]'/>
         </div>
       </div>
-    {components.components.map((component, index) => <Component {...component} key={index}/>)}
+      <div className='flex flex-col items-full items-center justify-start mt-[20px] gap-y-[20px] sm:px-[60px] md:px-[100px] lg:px-[200px] xl:px-[300px] 2xl:px-[400px]'>
+      {components.components.map((component, index) => <Component {...component} key={index}/>)}
+      </div>
     </div>
   )
 }
