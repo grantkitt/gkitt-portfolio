@@ -28,7 +28,6 @@ export default function EmailScreen() {
             setError("Please fill all fields");
             return;
         }
-        console.log(import.meta.env);
         try {
             const res = await emailjs.send(
                 import.meta.env.VITE_EMAILJS_SERVICE_ID!,
