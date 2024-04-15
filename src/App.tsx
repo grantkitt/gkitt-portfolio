@@ -1,6 +1,6 @@
-import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import EmailScreen from "./screens/email";
 import HomeScreen from "./screens/home";
-import EmailScreen from "./components/email";
 
 function App() {
     return (

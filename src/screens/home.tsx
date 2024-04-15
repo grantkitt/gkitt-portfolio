@@ -1,12 +1,10 @@
+import { useNavigate } from "react-router-dom";
+import { emailIcon } from "../components/assets";
 import Component from "../components/component";
 import components from "../components/data.json";
-import { copyIcon } from "../components/assets";
 
 export default function HomeScreen() {
-    const handleCopyEmail = () => {
-        navigator.clipboard.writeText("gkitt@utexas.edu");
-    };
-
+    const navigate = useNavigate();
     return (
         <div className='flex w-full flex-col items-center justify-start px-[10px] pb-[10%] pt-[10px]'>
             <div className='mb-[0.5%] flex w-full flex-row items-start justify-center'>
@@ -16,11 +14,11 @@ export default function HomeScreen() {
                             Grant Kitlowski
                         </h1>
                         <button
-                            onClick={handleCopyEmail}
+                            onClick={() => navigate("/email")}
                             className='flex flex-row items-center justify-start gap-x-2 text-white hover:text-gray-400'
                         >
                             <h2 className='text-xs font-semibold lg:text-lg'>email me</h2>
-                            {copyIcon}
+                            <div className='h-[20px] w-[20px]'>{emailIcon}</div>
                         </button>
                     </div>
                     <div className='mt-[2px] h-[2px] w-full bg-white' />
