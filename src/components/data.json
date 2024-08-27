@@ -29,14 +29,14 @@
         {
             "primarycolor": "#005386",
             "secondarycolor": "#FFFFFF",
-            "title": "Dassault Systemés",
+            "title": "Dassault Systémes",
             "role": "DevOps Engineer Intern",
             "skills": ["Kubernetes", "AWS", "Terraform", "GitHub Actions", "Apache Kafka", "SQS", "DMS", "Helm"],
             "startdate": "May 2024",
             "enddate": "Present",
             "image": "./dassault.png",
             "imagewidth": 100,
-            "description": "Interned at Medidata Solutions, a Dassault Systemés company, in New York over the summer and into my senior fall semester. Built reusable terraform modules, service agnostic GitHub actions workflows, and migrated services from deprecated IaC and CI/CD platforms."
+            "description": "Interned at Medidata Solutions, a Dassault Systémes company, in New York over the summer and into my senior fall semester. Built reusable terraform modules, service agnostic GitHub actions workflows, and migrated services from deprecated IaC and CI/CD platforms."
         },
         {
             "primarycolor": "#337569",
