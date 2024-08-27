@@ -50,7 +50,7 @@ export default function EmailScreen() {
     return (
         <div className='flex h-screen w-screen flex-col'>
             <div className='flex h-full w-full flex-col items-center justify-center gap-y-[20px] px-[20px] sm:px-[100px] md:px-[200px] lg:px-[300px] xl:px-[400px] 2xl:px-[600px]'>
-                <div className='flex w-full flex-col items-center justify-center gap-x-[20px] gap-y-[20px] lg:flex-row'>
+                <div className='mt-[30px] flex w-full flex-col items-center justify-center gap-x-[20px] gap-y-[20px] lg:flex-row'>
                     <TextInput value={message.name} onChange={(v: string) => handleChange("name", v)} label='Name' />
                     <TextInput value={message.email} onChange={(v: string) => handleChange("email", v)} label='Email' />
                 </div>
@@ -77,7 +77,7 @@ export default function EmailScreen() {
                 ) : (
                     <div className='flex w-full flex-row justify-start text-sm text-red-400'>{error}</div>
                 )}
-                <div className='absolute bottom-[30px] flex w-full flex-row items-center justify-center'>
+                <div className='mb-[30px] mt-[30px] flex w-full flex-row items-center justify-center'>
                     <div
                         onClick={() => navigate("/")}
                         className='h-[30px] w-[30px] cursor-pointer text-white hover:text-gray-400'
