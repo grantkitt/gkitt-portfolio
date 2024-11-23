@@ -27,7 +27,7 @@ export default function Door() {
 
     return (
         <div className='flex h-screen w-screen flex-col items-center justify-center gap-y-7'>
-            <div className='w-1/4'>
+            <div className='w-[300px]'>
                 <TextInput
                     value={password}
                     onChange={(v: string) => setPassword(v)}
