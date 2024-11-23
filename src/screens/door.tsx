@@ -1,26 +1,18 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { TextInput } from "./email";
+import { DoorRequest } from "../components/axios";
 
 export default function Door() {
     const [close, setClose] = useState(false);
     const [password, setPassword] = useState("");
 
-    useEffect(() => {
-        if (!close) {
-            document.title = "Idle";
-        }
-    }, [close]);
-
     const handleClose = () => {
         if (password != import.meta.env.VITE_DOOR_PASSWORD) {
-            console.log(import.meta.env.VITE_DOOR_PASSWORD);
-            document.title = "GET OUTTA HERE!";
             return;
         }
-        document.title = import.meta.env.VITE_DOOR_PASSWORD;
+        DoorRequest();
         setClose(true);
         setTimeout(() => {
-            document.title = "Grant Kitlowski";
             setClose(false);
         }, 4000);
     };
