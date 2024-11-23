@@ -97,7 +97,7 @@ interface TextInputProps {
     type?: "text" | "textarea";
 }
 
-function TextInput({ value, onChange, label, type = "text" }: TextInputProps) {
+export function TextInput({ value, onChange, label, type = "text" }: TextInputProps) {
     const [text, setText] = useState(value);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>) => {
