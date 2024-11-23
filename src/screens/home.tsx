@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { emailIcon } from "../components/assets";
+import { emailIcon, doorIcon } from "../components/assets";
 import Component from "../components/component";
 import components from "../components/data.json";
 
@@ -28,6 +28,12 @@ export default function HomeScreen() {
                 {components.components.map((component, index) => (
                     <Component {...component} key={index} />
                 ))}
+            </div>
+            <div
+                onClick={() => navigate("/door")}
+                className='text-gray-700] fixed right-[5px] top-[5px] z-40 h-[10px] w-[10px] cursor-pointer'
+            >
+                {doorIcon}
             </div>
         </div>
     );
