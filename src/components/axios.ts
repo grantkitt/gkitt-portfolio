@@ -9,11 +9,9 @@ export async function DoorRequest() {
     };
 
     try {
-        const res = await axios.post(url, {}, { headers });
-        console.log(res);
-        return res.data;
+        await axios.post(url, {}, { headers });
+        return;
     } catch (e) {
-        console.log(e);
         return e;
     }
 }
