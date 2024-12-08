@@ -50,7 +50,7 @@
             "enddate": "August 2024",
             "image": "./dassault.png",
             "imagewidth": 100,
-            "description": "Interned at Medidata Solutions, a Dassault Systémes company, in New York over the summer and into my senior fall semester. Built reusable terraform modules, service agnostic GitHub actions workflows, and migrated services from deprecated IaC and CI/CD platforms."
+            "description": "Interned at Medidata Solutions, a Dassault Systémes company, in New York during the summer after my junior year. Built reusable terraform modules, service agnostic GitHub actions workflows, and migrated services from deprecated IaC and CI/CD platforms."
         },
         {
             "primarycolor": "#337569",
